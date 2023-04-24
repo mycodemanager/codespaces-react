@@ -1,0 +1,28 @@
+.google_code_box {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.code_input {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #b897f1;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    font-size: 28px;
+
+
+
+
+}
+.code_input ::-webkit-outer-spin-button,
+.code_input ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
